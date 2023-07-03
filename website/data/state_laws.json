@@ -1,0 +1,23 @@
+{
+  "California": {
+    "securityDepositLimit": "Two months' rent for unfurnished dwellings; three months' rent for furnished dwellings",
+    "deadlineForReturningSecurityDeposit": "21 days",
+    "lateRentFee": "Allowed, but must be reasonable",
+    "noticeToRaiseRent": "30 days if rent increase is less than 10 percent; 60 days if rent increase is more than 10 percent",
+    "noticeToTerminateTenancy": "30 days if tenant has lived in rental a year or less; 60 days if tenant has lived in rental more than a year"
+  },
+  "NewYork": {
+    "securityDepositLimit": "No statutory limit",
+    "deadlineForReturningSecurityDeposit": "14 days",
+    "lateRentFee": "Allowed, but must be reasonable",
+    "noticeToRaiseRent": "30 days if rent increase is less than 5 percent; 60 days if rent increase is 5 to 10 percent; 90 days if rent increase is more than 10 percent",
+    "noticeToTerminateTenancy": "30 days"
+  },
+  "Texas": {
+    "securityDepositLimit": "No statutory limit",
+    "deadlineForReturningSecurityDeposit": "30 days",
+    "lateRentFee": "Allowed, but must be reasonable",
+    "noticeToRaiseRent": "1 month",
+    "noticeToTerminateTenancy": "1 month"
+  }
+}

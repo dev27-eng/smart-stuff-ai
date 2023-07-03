@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lease Law Comparison</title>
+    <link rel="stylesheet" href="/static/css/main.css">
+    <script src="/static/js/main.js"></script>
+</head>
+<body>
+    <h1>Lease Law Comparison</h1>
+    <p>Select your state and upload your lease to compare it with the state's residential leasing laws.</p>
+    <div>
+        <label for="state-selection">Select State:</label>
+        <select id="state-selection">
+            <!-- State options will be populated dynamically -->
+        </select>
+    </div>
+    <div>
+        <label for="lease-upload">Upload Lease:</label>
+        <input type="file" id="lease-upload" accept=".pdf">
+    </div>
+    <button id="compare-button" onclick="uploadLease()">Compare</button>
+    <div id="upload-status"></div>
+</body>
+</html>
